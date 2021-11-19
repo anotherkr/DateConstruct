@@ -24,9 +24,10 @@ public class VisitedVertex {
         this.pre_visited = new int[length];
         this.dis = new int[length];
         //初始化
-        Arrays.fill(dis,65535);
-        this.already_arr[index]=1;//设置出发顶点被访问过
-        this.dis[index]=0;//设置出发顶点到自己的距离为0
+        Arrays.fill(dis, 65535);//用65535来代表无穷
+        this.already_arr[index] = 1;//设置出发顶点被访问过
+        this.dis[index] = 0;//设置出发顶点到自己的距离为0
+        this.pre_visited[index] = index;//设置出发顶点的前驱顶点为自己
     }
 
     /**
@@ -48,12 +49,13 @@ public class VisitedVertex {
     }
 
     /**
-     *  功能:更新pre顶点的前驱为index顶点
+     * 功能:更新pre顶点的前驱为index顶点
+     *
      * @param pre
      * @param index
      */
-    public void updatePre( int index,int pre) {
-        pre_visited[pre]=index;
+    public void updatePre(int pre, int index) {
+        pre_visited[pre] = index;
     }
 
     /**
@@ -69,9 +71,9 @@ public class VisitedVertex {
         int min=65535;
         int index=0;
         for (int i = 0; i < already_arr.length; i++) {
-            if (already_arr[i] == 0 && dis[i] < min) {
-                min=dis[i];
-                index=i;
+            if (already_arr[i] == 0 && dis[i] < min) {//筛选出未被访问，且与出发顶点距离最小的顶点的下标
+                min = dis[i];
+                index = i;
             }
         }
         //更新index顶点被访问过

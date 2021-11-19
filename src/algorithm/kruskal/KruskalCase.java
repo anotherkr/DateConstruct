@@ -81,7 +81,6 @@ public class KruskalCase {
             System.out.println();
         }
     }
-
     //对边的权值进行排序
     public void sortEdges(EData[] edges) {
         for (int i = 0; i < edges.length-1; i++) {
