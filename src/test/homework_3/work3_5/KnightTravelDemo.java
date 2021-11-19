@@ -1,10 +1,13 @@
 package test.homework_3.work3_5;
 
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Stack;
 
-/** 骑士游历问题,用栈解决
+/**
+ * 骑士周游,用栈解决
+ *
  * @author yanhuanzhan
  * @date 2021/10/26 - 20:20
  */
@@ -22,7 +25,7 @@ public class KnightTravelDemo {
             System.out.println ( );
         }
         long start = System.currentTimeMillis ( );
-        findWay ( new Spot (3, 3));
+        findWay(new Spot(3, 3));
         long end = System.currentTimeMillis ();
         System.out.println ("寻路后的地图----" );
         for (int i = 0; i < 8; i++) {
