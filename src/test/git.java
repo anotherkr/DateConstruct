@@ -7,5 +7,6 @@ package test;
 public class git {
     public static void main(String[] args) {
         System.out.println("eeeeeeeeee");
+        System.out.println("测试git的push");
     }
 }
