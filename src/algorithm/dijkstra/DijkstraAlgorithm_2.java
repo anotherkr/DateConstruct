@@ -50,18 +50,20 @@ public class DijkstraAlgorithm_2 {
                     min = dis[j];
                     mid = j;
                 }
+            }
                 isVisited[mid] = true;//标记为已访问
                 //以中间顶点为跳板,更新初始顶点与其他顶点的最短距离
                 for (int k = 0; k < vertex.length; k++) {
                     //matrix[mid][k] + dis[mid]表示初始顶点经过中间顶点到k顶点的距离
                     int temp = (matrix[mid][k] == N ? N : (matrix[mid][k] + dis[mid]));
-                    if (temp < dis[k]) {//说明temp为目前初始顶点到k顶点的最短距离
+                    //isVisited[k]==true时,说明该顶点已经取得最短路径
+                    if (isVisited[k] == false && temp < dis[k]) {//说明temp为目前初始顶点到k顶点的最短距离
                         dis[k] = temp;
                         pre[k] = mid;//更新k的前驱顶点为mid
                     }
                 }
 
-            }
+
         }
         //输出结果dis数组
         for (int i = 0; i < dis.length; i++) {
