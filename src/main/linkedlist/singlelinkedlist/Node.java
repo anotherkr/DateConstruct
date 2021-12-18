@@ -1,4 +1,4 @@
-package linkedlist.singlelinkedlist;
+package main.linkedlist.singlelinkedlist;
 
 /**创建一个节点对象
  * @author yanhuanzhan

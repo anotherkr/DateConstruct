@@ -1,4 +1,4 @@
-package test.homework_3.work3_1;
+package main.test.homework_3.work3_1;
 
 import java.util.Scanner;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package test.homework_2.work2_4;
+package main.test.homework_2.work2_4;
 
 import java.util.LinkedList;
 

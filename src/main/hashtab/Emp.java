@@ -1,4 +1,4 @@
-package hashtab;
+package main.hashtab;
 
 import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
 

@@ -1,4 +1,4 @@
-package search;
+package main.search;
 
 /**
  * @author yanhuanzhan

@@ -1,4 +1,4 @@
-package algorithm.dijkstra;
+package main.algorithm.dijkstra;
 
 /**迪杰斯特拉算法
  * @author yanhuanzhan

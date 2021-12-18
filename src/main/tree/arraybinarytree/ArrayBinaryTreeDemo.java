@@ -1,4 +1,4 @@
-package tree.arraybinarytree;
+package main.tree.arraybinarytree;
 
 /**
  * @author yanhuanzhan

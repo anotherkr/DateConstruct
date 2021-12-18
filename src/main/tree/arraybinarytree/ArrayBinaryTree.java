@@ -1,4 +1,4 @@
-package tree.arraybinarytree;
+package main.tree.arraybinarytree;
 
 /**顺序存储二叉树
  * @author yanhuanzhan

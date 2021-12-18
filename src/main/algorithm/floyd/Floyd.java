@@ -1,4 +1,4 @@
-package algorithm.floyd;
+package main.algorithm.floyd;
 
 /**弗洛伊德算法
  * @author yanhuanzhan

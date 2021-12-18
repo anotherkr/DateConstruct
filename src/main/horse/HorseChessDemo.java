@@ -1,4 +1,4 @@
-package horse;
+package main.horse;
 
 import java.awt.*;
 import java.util.ArrayList;

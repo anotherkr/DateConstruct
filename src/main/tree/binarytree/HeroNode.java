@@ -1,4 +1,4 @@
-package tree.binarytree;
+package main.tree.binarytree;
 
 /**
  * 节点类

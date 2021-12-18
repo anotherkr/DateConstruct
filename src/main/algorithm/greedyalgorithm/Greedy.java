@@ -1,4 +1,4 @@
-package algorithm.greedyalgorithm;
+package main.algorithm.greedyalgorithm;
 
 import java.util.ArrayList;
 import java.util.HashMap;

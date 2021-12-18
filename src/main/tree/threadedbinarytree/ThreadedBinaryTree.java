@@ -1,4 +1,4 @@
-package tree.threadedbinarytree;
+package main.tree.threadedbinarytree;
 
 
 import java.util.Stack;

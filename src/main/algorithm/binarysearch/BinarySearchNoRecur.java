@@ -1,4 +1,4 @@
-package algorithm.binarysearch;
+package main.algorithm.binarysearch;
 
 /** 二分查找(非递归)
  * @author yanhuanzhan

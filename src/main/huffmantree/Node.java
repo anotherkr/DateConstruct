@@ -1,4 +1,4 @@
-package huffmantree;
+package main.huffmantree;
 
 /** 节点类
  *  为了让Node对象支持排序Collections集合排序

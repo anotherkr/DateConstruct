@@ -1,4 +1,4 @@
-package huffmancode;
+package main.huffmancode;
 
 import java.io.*;
 import java.util.*;

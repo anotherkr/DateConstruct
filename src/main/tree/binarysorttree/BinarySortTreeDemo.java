@@ -1,4 +1,4 @@
-package tree.binarysorttree;
+package main.tree.binarysorttree;
 
 /**
  * @author yanhuanzhan

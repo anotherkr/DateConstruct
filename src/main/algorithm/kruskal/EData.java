@@ -1,4 +1,4 @@
-package algorithm.kruskal;
+package main.algorithm.kruskal;
 
 /** 创建一个类,它的对象实例就是一条边
  * @author yanhuanzhan

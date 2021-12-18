@@ -1,4 +1,4 @@
-package horse;
+package main.horse;
 
 import java.util.ArrayList;
 import java.util.Comparator;

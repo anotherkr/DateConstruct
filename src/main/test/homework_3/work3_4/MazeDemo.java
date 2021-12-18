@@ -1,4 +1,4 @@
-package test.homework_3.work3_4;
+package main.test.homework_3.work3_4;
 
 /** 迷宫问题，用递归的方式解决(深度优先遍历)
  * @author yanhuanzhan

@@ -1,4 +1,4 @@
-package tree.avltree;
+package main.tree.avltree;
 
 /**AVL树(平衡二叉树)
  * @author yanhuanzhan

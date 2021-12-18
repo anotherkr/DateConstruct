@@ -1,4 +1,4 @@
-package maze;
+package main.maze;
 
 /**
  * 作为一个点

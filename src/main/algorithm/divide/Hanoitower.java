@@ -1,4 +1,4 @@
-package algorithm.divide;
+package main.algorithm.divide;
 
 /** 分治算法解决汉诺塔问题
  * @author yanhuanzhan

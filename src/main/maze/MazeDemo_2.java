@@ -1,6 +1,6 @@
-package maze;
+package main.maze;
 
-import test.homework_3.work3_4.Spot;
+
 
 import java.util.Stack;
 

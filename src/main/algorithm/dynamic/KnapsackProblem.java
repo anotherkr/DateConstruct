@@ -1,4 +1,4 @@
-package algorithm.dynamic;
+package main.algorithm.dynamic;
 
 /** 动态规划算法
  * @author yanhuanzhan

@@ -1,4 +1,4 @@
-package maze;
+package main.maze;
 
 /**
  * 迷宫问题(递归方式)

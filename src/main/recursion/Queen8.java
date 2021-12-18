@@ -1,4 +1,4 @@
-package recursion;
+package main.recursion;
 
 /** 八皇后问题
  * @author yanhuanzhan

@@ -1,4 +1,4 @@
-package hashtab;
+package main.hashtab;
 
 /**
  * 链表

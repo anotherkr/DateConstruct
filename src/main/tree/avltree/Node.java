@@ -1,4 +1,4 @@
-package tree.avltree;
+package main.tree.avltree;
 
 /** 节点类
  * @author yanhuanzhan

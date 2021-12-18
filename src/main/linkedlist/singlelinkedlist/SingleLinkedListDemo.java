@@ -1,4 +1,4 @@
-package linkedlist.singlelinkedlist;
+package main.linkedlist.singlelinkedlist;
 
 /**
  * @author yanhuanzhan

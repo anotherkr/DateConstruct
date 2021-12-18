@@ -1,4 +1,4 @@
-package kmp.violenceMatch;
+package main.kmp.violenceMatch;
 
 /** 暴力匹配
  * @author yanhuanzhan

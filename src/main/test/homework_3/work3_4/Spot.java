@@ -1,4 +1,4 @@
-package test.homework_3.work3_4;
+package main.test.homework_3.work3_4;
 
 /** 作为一个点
  * @author yanhuanzhan

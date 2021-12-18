@@ -1,4 +1,4 @@
-package test.homework_2.work2_5;
+package main.test.homework_2.work2_5;
 
 /**
  * @author yanhuanzhan

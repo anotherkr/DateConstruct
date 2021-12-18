@@ -1,4 +1,4 @@
-package kmp.kmpalgorithm;
+package main.kmp.kmpalgorithm;
 
 import java.util.Arrays;
 

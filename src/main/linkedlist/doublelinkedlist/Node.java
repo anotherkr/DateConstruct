@@ -1,4 +1,4 @@
-package linkedlist.doublelinkedlist;
+package main.linkedlist.doublelinkedlist;
 
 /**
  * @author yanhuanzhan

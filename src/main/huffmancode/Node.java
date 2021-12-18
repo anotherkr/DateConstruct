@@ -1,4 +1,4 @@
-package huffmancode;
+package main.huffmancode;
 
 
 
